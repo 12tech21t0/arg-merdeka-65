@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 1);
     color: whitesmoke;
     overflow: hidden;
     height: 100vh;
@@ -20,9 +20,11 @@ body {
 
 #logoBg {
     position: absolute;
+    width: 250px;
     top: 50%;
-    transform: translateY(-50%);
-    opacity: 0.1;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.05;
 }
 
 #main {
@@ -41,7 +43,6 @@ body {
     }
 
     #logoBg {
-        left: 50%;
-        transform: translate(-50%, -50%);
+        width: 500px;
     }
 }
