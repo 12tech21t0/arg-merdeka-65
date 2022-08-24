@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 12px;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.7);
+    color: whitesmoke;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+#logoBg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.1;
+}
+
+#main {
+    position: absolute;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem 0;
+    text-align: center;
+}
+
+@media screen and (min-width: 500px) {
+    html {
+        font-size: 18px;
+    }
+
+    #logoBg {
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
