@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: inherit;
 }
 
 html {
@@ -46,6 +47,25 @@ body {
     padding: 2rem 0;
     text-align: center;
 }
+
+#discussionLink {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    background-color: white;
+    color: rgb(0, 31, 71);
+    padding: 1em;
+    border-radius: 2em;
+}
+
+#discussionLink>a {
+    text-decoration: none;
+}
+
+#linkText {
+    padding-left: 0.5em;
+}
+
 
 @media screen and (min-width: 500px) {
     html {
